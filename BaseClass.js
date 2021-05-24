@@ -14,6 +14,7 @@ class BaseClass{
       display(){
         var angle = this.body.angle;
         push();
+        fill("pink")
         translate(this.body.position.x, this.body.position.y);
         rotate(angle);
         imageMode(CENTER);
